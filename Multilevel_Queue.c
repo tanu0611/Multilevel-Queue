@@ -24,7 +24,7 @@ void *RoundRobin()
 				if(process[i].priority==1)
 			{
 				process[i].burst_time=process[i].burst_time-tq;
-				printf(process[i].burst_time);
+				printf("%d",process[i].burst_time);
 			}
 		}
 		
